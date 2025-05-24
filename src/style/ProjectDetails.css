@@ -1,0 +1,133 @@
+.project-details {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.project-details .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.project-details h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main__pic {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    margin: 40px 0;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.project-details .main-image-container {
+    flex: 1 1 500px;
+    text-align: center;
+}
+
+.project-details .main-image {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.project-details .thumbnails {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+    flex: 0 0 260px;
+}
+
+.project-details .thumbnails .thumb {
+    width: 140px;
+    height: 80px;
+    /* object-fit: contain; */
+    cursor: pointer;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.project-details .thumbnails .thumb:hover,
+.project-details .thumbnails .thumb.active {
+    border-color: #007bff;
+    transform: scale(1.1);
+}
+
+.project-details p {
+font-size: 18px;
+    font-weight: 700;    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.languages {
+    margin-top: 30px;
+}
+
+.languages h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.languages ul{
+    list-style: disc;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 100px;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+
+.languages ul li::marker {
+    font-size: 24px;
+    color: #007bff;
+}
+
+.links {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.links .btn {
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.links .btn:hover {
+    background-color: #0056b3;
+}
+
+.back-btn {
+    font-size: 18px;
+    margin-top: 40px;
+    background-color: #6c757d;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+    background-color: #5a6268;
+}

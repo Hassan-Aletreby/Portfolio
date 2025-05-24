@@ -1,0 +1,25 @@
+{
+  "Home": "Home",
+  "About": "About",
+  "Projects": "Projects",
+  "Contact": "Contact",
+   "Port": "Port",
+  "folio": "folio",
+  "YourName": "Hassan Ahmed Mohamed",
+  "JobTitle": "Front-End Developer",
+   "AboutMe": "About Me",
+  "AboutDescription": "I am a Front-End Developer with 2 years of experience in building responsive web applications.",
+  "Skills": "Skills",
+  "Experience": "Experience",
+  "Years": "Years",
+  "ManyProjects": "Many projects completed",
+  "contact": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "success": "Your message has been sent successfully!",
+    "error": "An error occurred. Please try again later."
+  }
+}
