@@ -45,17 +45,11 @@ const Navbar = () => {
         </div>
 
         <div className={`navbar-links ${menuOpen ? "open" : ""}`}>
-          <button onClick={() => scrollToSection("home")}>{t("Home")}</button>
-          <button onClick={() => scrollToSection("about")}>{t("About")}</button>
-          <button onClick={() => scrollToSection("skills")}>
-            {t("Skills")}
-          </button>
-          <button onClick={() => scrollToSection("projects")}>
-            {t("Projects")}
-          </button>
-          <button onClick={() => scrollToSection("contact")}>
-            {t("Contact")}
-          </button>
+          <a onClick={() => scrollToSection("home")}>{t("Home")}</a>
+          <a onClick={() => scrollToSection("about")}>{t("About")}</a>
+          <a onClick={() => scrollToSection("skills")}>{t("Skills")}</a>
+          <a onClick={() => scrollToSection("projects")}>{t("Projects")}</a>
+          <a onClick={() => scrollToSection("contact")}>{t("Contact")}</a>
         </div>
 
         <div className="navbar-buttons">

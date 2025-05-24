@@ -1,7 +1,6 @@
 .navbar {
     background-color: #2d3748;
     padding: 8px;
-    color: white;
     position: fixed;
     width: 100%;
     top: 0;
@@ -23,8 +22,9 @@
     gap: 20px;
 }
 
-.navbar-links button {
-    color: white;
+.navbar-links a {
+    color: #00bcd4;
+    /* box-shadow: 0 4px 15px rgba(0, 187, 212, 0.376); */
     text-decoration: none;
     font-size: 18px;
     background-color: transparent;
@@ -32,8 +32,8 @@
     cursor: pointer;
 }
 
-.navbar-links button:hover {
-    color: #a0aec0;
+.navbar-links a:hover {
+      box-shadow: 0 4px 15px rgba(0, 187, 212, 0.376);
 }
 .logo{
     display: flex;
@@ -56,14 +56,6 @@
 
 
 
-
-body.dark .navbar {
-    background-color: #1a202c;
-}
-
-body.dark .navbar-links a {
-    color: #e2e8f0;
-}
 
 
 .theme-btn{
