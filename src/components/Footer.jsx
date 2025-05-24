@@ -39,7 +39,7 @@ const Footer = () => {
           </li>
           <li className="footer-item">
             <a
-              href="https://wa.me/01028267169"
+              href="https://wa.me/+201028267169"
               target="_blank"
               rel="noopener noreferrer">
               <i className="fa fa-whatsapp"></i> {t("whatsapp")}
