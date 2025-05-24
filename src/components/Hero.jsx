@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="hero-container">
         <div className="hero-image">
           <div className="rotating-border"></div>
-          <img src="../../public/profile.png" alt={t("Hassan")} />
+          <img src="/public/profile.png" alt={t("Hassan")} />
         </div>
 
         <div className="hero-text">
@@ -32,7 +32,7 @@ const Hero = () => {
               <i className="fa fa-phone"></i>
             </a>
             <a
-              href="https://wa.me/01028267169"
+              href="https://wa.me/+201028267169"
               target="_blank"
               rel="noopener noreferrer">
               <i className="fa fa-whatsapp"></i>
