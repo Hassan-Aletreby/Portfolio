@@ -86,7 +86,7 @@ function App() {
         />
         <Routes>
           <Route path="/" element={<ScrollToSectionWrapper />} />
-          <Route path="/projects/:id" element={<ProjectDetails />} />
+          <Route path="/project/:id" element={<ProjectDetails />} />
         </Routes>
       </div>
     </Router>
