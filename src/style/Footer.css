@@ -139,12 +139,13 @@ width: 32px;
 
 @media (max-width: 480px) {
     .footer-links {
-            flex-direction: column;
-            align-items: flex-start;
-            justify-content: flex-start;
-            margin: 10px 20px;
-            gap: 12px;
-        }
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        margin: 10px 20px;
+        justify-items: start;
+    }
+
     .footer-links a {
         font-size: 18px;
     }
