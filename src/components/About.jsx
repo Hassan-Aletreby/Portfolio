@@ -9,17 +9,17 @@ const About = () => {
       <div className="about-container">
         <div className="about-text">
           <h2>{t("AboutMe")}</h2>
-          <p>{t("AboutDescription")}</p>
+          <p style={{ whiteSpace: "pre-line" }}>{t("AboutDescription")}</p>
+
           <ul>
             <li>
-              <p>
-                {t("Experience")}: 2 {t("Years")}
-              </p>
+              <strong>{t("Experience")}:</strong> 2 {t("Years")}
             </li>
             <li>
-              <p>
-                {t("Projects")}: {t("ManyProjects")}
-              </p>
+              <strong>{t("Projects")}:</strong> {t("ManyProjects")}
+            </li>
+            <li>
+              <strong>{t("CurrentFocus")}:</strong> {t("ReactApps")}
             </li>
           </ul>
         </div>

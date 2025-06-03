@@ -1,18 +1,12 @@
 {
   "Home": "Home",
   "About": "About",
-  "Projects": "Projects",
   "Contact": "Contact",
    "Port": "Port",
   "folio": "folio",
   "YourName": "Hassan Ahmed Mohamed",
   "JobTitle": "Front-End Developer",
-   "AboutMe": "About Me",
-  "AboutDescription": "I am a Front-End Developer with 2 years of experience in building responsive web applications.",
   "Skills": "Skills",
-  "Experience": "Experience",
-  "Years": "Years",
-  "ManyProjects": "Many projects completed",
   "contact": {
     "title": "Contact Us",
     "name": "Name",
@@ -21,5 +15,14 @@
     "send": "Send",
     "success": "Your message has been sent successfully!",
     "error": "An error occurred. Please try again later."
-  }
+  },
+    "AboutMe": "About Me",
+    "AboutDescription": "I am a professional Front-End Developer with over two years of experience designing and developing modern, interactive user interfaces using the latest web technologies. I possess strong skills in:\n\nHTML, CSS, and JavaScript for building responsive structures and layouts.\n\nBootstrap and Tailwind CSS to create elegant, fast-responsive interfaces that support various devices and screens.\n\nReact.js for developing dynamic and scalable web applications, with experience managing state using Context API and Redux.\n\nI am also proficient with version control tools like Git and GitHub to work within teams and organize code professionally.\n\nI have extensive experience integrating APIs to connect front-end interfaces with back-end systems, enabling smooth and seamless applications. I always consider performance optimization, fast loading, and user experience to ensure cross-browser compatibility.\n\nI focus on applying best UX/UI design standards and continuously learn modern technologies to deliver innovative, high-quality projects that meet and exceed client expectations.",
+    "Experience": "Experience",
+    "Years": "Years",
+    "Projects": "Projects",
+    "ManyProjects": "Many completed projects across various fields (commercial, educational, personal)",
+    "CurrentFocus": "Current Focus",
+    "ReactApps": "Building responsive and fast React applications"
+  
 }

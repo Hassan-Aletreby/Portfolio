@@ -1,3 +1,9 @@
+:root {
+    --background-color: #ebebeb;
+    --text-color: #000000;
+    --card-background: #ebebeb;
+}
+
 .about {
     padding: 80px 20px;
     background-color: var(--background-color);
@@ -28,6 +34,8 @@
 .about-text p {
     font-size: 1.2rem;
     margin-bottom: 20px;
+    white-space: pre-line;
+    /* للحفاظ على فواصل الأسطر في النص */
 }
 
 .about-text ul {
@@ -38,16 +46,11 @@
 .about-text li {
     font-size: 1rem;
     margin-bottom: 10px;
+    font-weight: 500;
 }
 
-
-:root {
-    --background-color: #ebebeb;
-    --text-color: #000000;
-    --card-background: #ebebeb;
-}
-
-about.dark {
+/* الوضع الداكن */
+.about.dark {
     --background-color: #2d3748;
     --text-color: #ffffff;
     --card-background: #2d3748;
@@ -67,4 +70,3 @@ about.dark {
         font-size: 0.9rem;
     }
 }
-
