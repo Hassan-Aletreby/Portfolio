@@ -23,6 +23,7 @@
     "Projects": "Projects",
     "ManyProjects": "Many completed projects across various fields (commercial, educational, personal)",
     "CurrentFocus": "Current Focus",
-    "ReactApps": "Building responsive and fast React applications"
+    "ReactApps": "Building responsive and fast React applications",
+    "DownloadCv" :"Download CV"
   
 }

@@ -63,9 +63,17 @@ const Hero = () => {
             </a>
           </div>
 
-          <a href="#contact" className="contact-button">
-            {t("ContactUs")}
-          </a>
+          <div className="action__btn">
+            <a href="#contact" className="contact-button">
+              {t("ContactUs")}
+            </a>
+            <a
+              href="/public/Hassan_Ahmed_CV.pdf"
+              className="contact-button DownloadCv"
+              download>
+              {t("DownloadCv")}
+            </a>
+          </div>
         </div>
       </div>
     </section>
