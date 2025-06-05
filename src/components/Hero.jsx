@@ -68,7 +68,7 @@ const Hero = () => {
               {t("ContactUs")}
             </a>
             <a
-              href="/public/Hassan_Ahmed_CV.pdf"
+              href="/Hassan_Ahmed_CV.pdf"
               className="contact-button DownloadCv"
               download>
               {t("DownloadCv")}
