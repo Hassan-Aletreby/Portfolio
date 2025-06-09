@@ -15,9 +15,18 @@ const Navbar = () => {
 
   useEffect(() => {
     const savedMode = localStorage.getItem("theme");
-    if (savedMode) {
-      setDarkMode(savedMode === "dark");
-      document.body.classList.toggle("dark", savedMode === "dark");
+    if (!savedMode) {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      setDarkMode(prefersDark);
+      document.body.classList.toggle("dark", prefersDark);
+      localStorage.setItem("theme", prefersDark ? "dark" : "light");
+    } else {
+      const isDark = savedMode === "dark";
+      setDarkMode(isDark);
+      document.body.classList.toggle("dark", isDark);
     }
   }, []);
 
