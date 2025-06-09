@@ -56,7 +56,10 @@ const Navbar = () => {
           <h2>{t("folio")}</h2>
         </div>
 
-        <div className={`navbar-links ${menuOpen ? "open" : ""}`}>
+        <div
+          className={`navbar-links ${menuOpen ? "open" : ""} ${
+            i18n.language === "ar" ? "rtl" : "ltr"
+          }`}>
           <a onClick={() => scrollToSection("home")}>{t("Home")}</a>
           <a onClick={() => scrollToSection("about")}>{t("About")}</a>
           <a onClick={() => scrollToSection("skills")}>{t("Skills")}</a>

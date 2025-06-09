@@ -143,7 +143,7 @@ svg {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 50px;
+    top: 55px;
     right:0;
     width: max-content;
     background-color: #2d3748;
@@ -151,7 +151,31 @@ svg {
     gap: 24px;
     z-index: 999;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
   }
+  .navbar-links.rtl {
+    left: 0;
+    right: auto;
+    text-align: center;
+    direction: rtl;
+    align-items: center;
+    transform: translateX(100%);
+  }
+    .navbar-links.rtl.open {
+      transform: translateX(0);
+    }
+  
+  .navbar-links.ltr {
+    right: 0;
+    left: auto;
+    text-align: center;
+    direction: ltr;
+    align-items: center;
+    transform: translateX(-100%);
+  }
+    .navbar-links.ltr.open {
+      transform: translateX(0);
+    }
 
   body.dark .navbar-links {
     background-color: #1a202c;
