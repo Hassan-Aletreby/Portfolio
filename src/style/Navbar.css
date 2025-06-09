@@ -57,15 +57,21 @@
 
 
 
-
+svg {
+  font-size: 18px;
+  color: #00bcd4;
+}
 .theme-btn{
     background-color: transparent;
     border: none;
     cursor: pointer;
     font-size: 18px;
+    display: flex;
+    align-items: center;
 }
 .navbar-buttons {
   display: flex;
+  justify-content: flex-end;
   gap: 10px;
   align-items: center;
 }
@@ -81,6 +87,9 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .lang-menu {
@@ -157,6 +166,6 @@
   }
 
   .navbar-buttons {
-    gap: 10px;
+    gap: 6px;
   }
 }

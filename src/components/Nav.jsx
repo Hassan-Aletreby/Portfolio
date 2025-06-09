@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
+import { GoSun } from "react-icons/go";
+import { FaRegMoon } from "react-icons/fa";
+import { GrLanguage } from "react-icons/gr";
 import "../style/Navbar.css";
 
 const Navbar = () => {
@@ -57,7 +60,8 @@ const Navbar = () => {
             <button
               onClick={() => setShowLangDropdown(!showLangDropdown)}
               className="lang-btn">
-              🌐 {i18n.language.toUpperCase()}
+              <GrLanguage />
+              {i18n.language.toUpperCase()}
             </button>
             {showLangDropdown && (
               <div className="lang-menu">
@@ -75,7 +79,7 @@ const Navbar = () => {
             )}
           </div>
           <button onClick={toggleTheme} className="theme-btn">
-            {darkMode ? "🌞" : "🌙"}
+            {darkMode ? <GoSun /> : <FaRegMoon />}
           </button>
           <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
             ☰

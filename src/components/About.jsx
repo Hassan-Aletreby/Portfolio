@@ -12,9 +12,9 @@ const About = () => {
           <p style={{ whiteSpace: "pre-line" }}>{t("AboutDescription")}</p>
 
           <ul>
-            <li>
+            {/* <li>
               <strong>{t("Experience")}:</strong> 2 {t("Years")}
-            </li>
+            </li> */}
             <li>
               <strong>{t("Projects")}:</strong> {t("ManyProjects")}
             </li>
