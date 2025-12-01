@@ -32,13 +32,26 @@ const ContactForm = () => {
       <h2>{t("contact.title")}</h2>
       <form ref={form} onSubmit={sendEmail}>
         <label>{t("contact.name")}</label>
-        <input type="text" name="name" required />
+        <input
+          type="text"
+          name="name"
+          required
+          requiredlabel={t("contact.name")}
+        />
 
         <label>{t("contact.email")}</label>
-        <input type="email" name="email" required />
+        <input
+          type="email"
+          name="email"
+          required
+          requiredlabel={t("contact.email")}
+        />
 
         <label>{t("contact.message")}</label>
-        <textarea name="message" required />
+        <textarea
+          name="message"
+          required
+          requiredlabel={t("contact.message")}></textarea>
 
         <button type="submit">{t("contact.send")}</button>
       </form>

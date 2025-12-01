@@ -35,11 +35,14 @@ const Footer = () => {
   };
 
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer-section">
       <div className="footer-container">
         <div className="logo" onClick={() => scrollToSection("home")}>
           <h2>{t("Port")}</h2>
-          <img src="/profile.png" alt="logo" />
+          <div className="logo__img">
+            {" "}
+            <img src="/public/logo.png" alt="logo" />
+          </div>
           <h2>{t("folio")}</h2>
         </div>
         <ul className="footer-links">

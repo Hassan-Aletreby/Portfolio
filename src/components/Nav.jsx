@@ -43,8 +43,8 @@ const Navbar = () => {
   };
 
   const scrollToSection = (section) => {
-    navigate("/", { state: { scrollTo: section } });
     setMenuOpen(false);
+    navigate(`/?scroll=${section}`);
   };
 
   return (
@@ -52,7 +52,9 @@ const Navbar = () => {
       <div className="navbar-container">
         <div className="logo" onClick={() => scrollToSection("home")}>
           <h2>{t("Port")}</h2>
-          <img src="/profile.png" alt="logo" />
+          <div className="logo__img">
+            <img src="/public/logo.png" alt="logo" />
+          </div>
           <h2>{t("folio")}</h2>
         </div>
 

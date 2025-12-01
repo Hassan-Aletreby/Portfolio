@@ -11,9 +11,8 @@ const Hero = () => {
       <div className="hero-container">
         <div className="hero-image">
           <div className="rotating-border"></div>
-          <img src="/profile.png" alt={t("Hassan")} />
+          <img src="/public/profile.png" alt={t("Hassan")} />
         </div>
-
         <div className="hero-text">
           <h1>{t("YourName")}</h1>
           <p className="job-title">

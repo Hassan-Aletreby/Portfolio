@@ -1,0 +1,75 @@
+.floating-container {
+    position: fixed;
+    bottom: 70px;
+    right: 15px;
+    z-index: 9999;
+}
+
+.floating-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background: #2d3748;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.floating-btn:hover {
+    background: #334155;
+}
+
+.floating-btn.open {
+    transform: rotate(180deg);
+}
+
+.floating-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 60px;
+    /* right: 5px; */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(20px);
+    transition: 0.3s ease;
+}
+
+.floating-links.show {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0);
+}
+
+.floating-links li a {
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    color: #1e293b;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    transition: 0.25s ease;
+}
+
+.floating-links li a:hover {
+    background: #1e293b;
+    color: #fff;
+    transform: scale(1.1);
+}
+.floating-container.hide {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.8);
+    transition: 0.3s ease;
+}
