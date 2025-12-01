@@ -53,7 +53,7 @@ const Navbar = () => {
         <div className="logo" onClick={() => scrollToSection("home")}>
           <h2>{t("Port")}</h2>
           <div className="logo__img">
-            <img src="/public/logo.png" alt="logo" />
+            <img src="/logo.png" alt="logo" />
           </div>
           <h2>{t("folio")}</h2>
         </div>
