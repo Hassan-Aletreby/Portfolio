@@ -8,6 +8,7 @@ import ProjectDetails from "./components/ProjectDetails";
 import ContactForm from "./components/ContactForm";
 import FloatingLinks from "./components/FloatingLinks";
 import Loading from "./components/Loading";
+import Testimonials from "./components/Testimonials";
 import { useTranslation } from "react-i18next";
 import {
   BrowserRouter as Router,
@@ -36,7 +37,7 @@ function ScrollToSectionWrapper() {
         if (element) {
           element.scrollIntoView({ behavior: "smooth" });
         }
-      }, 150); // مهلة بسيطة لضمان تحميل العناصر أولاً
+      }, 150);
     }
   }, [search]);
 
@@ -46,6 +47,7 @@ function ScrollToSectionWrapper() {
       <About />
       <Skills />
       <Projects />
+      <Testimonials />
       <ContactForm />
       <FloatingLinks />
       <Footer />

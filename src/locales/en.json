@@ -2,6 +2,7 @@
   "Home": "Home",
   "About": "About",
   "Contact": "Contact",
+    "Testimonials" :"Testimonials",
    "Port": "Port",
   "folio": "folio",
   "YourName": "Hassan Ahmed Mohamed",
@@ -24,6 +25,25 @@
     "ManyProjects": "Many completed projects across various fields (commercial, educational, personal)",
     "CurrentFocus": "Current Focus",
     "ReactApps": "Building responsive and fast React applications",
-    "DownloadCv" :"Download CV"
-  
+    "DownloadCv" :"Download CV",
+  "testimonials": {
+  "title": "Client Testimonials",
+  "items": [
+   {
+    "image": "/anas.jpg",
+    "name": "Anas Fawzy",
+    "job": "Owner of Magic Dental Lab",
+    "review": "Working with Engineer Hassan was a smooth and successful experience from start to finish. He quickly understood the specifics of our field and translated our needs into a practical and user-friendly system.\n\nThe website was delivered in a clean and organized way, helping us present our services professionally, with excellent performance and easy navigation on both mobile and desktop devices.\n\nWhat truly stood out was the continuous follow-up, attention to small details, and fast response to any requested changes or improvements.\n\nHonestly, his work is reliable, and I would recommend him to anyone looking for a website that genuinely supports their business in a professional way."
+  } 
+  ,{
+    "image": "/mysra.jpg",
+    "name": "Maysara Hany",
+    "job": "Founder of Rayan Agricultural Consulting",
+    "review": "I had the pleasure of working with Engineer Hassan on the design and development of our company’s website, and the experience was outstanding in every aspect.\n\nFrom a technical standpoint, the work was highly professional. The website is fast, well-structured, and fully responsive across all devices. All requirements were implemented accurately, with smooth and practical integration between the dashboard and the database.\n\nOn a professional level, there was a strong commitment to deadlines, great flexibility with revisions, and a quick understanding of any feedback or new ideas, along with proposing suitable technical solutions that fit the nature of our business.\n\nI highly recommend working with him for any web project that requires quality, organization, and attention to detail."
+  }
+]
+
 }
+
+}
+

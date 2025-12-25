@@ -66,6 +66,9 @@ const Navbar = () => {
           <a onClick={() => scrollToSection("about")}>{t("About")}</a>
           <a onClick={() => scrollToSection("skills")}>{t("Skills")}</a>
           <a onClick={() => scrollToSection("projects")}>{t("Projects")}</a>
+          <a onClick={() => scrollToSection("testimonials")}>
+            {t("Testimonials")}
+          </a>
           <a onClick={() => scrollToSection("contact")}>{t("Contact")}</a>
         </div>
 
