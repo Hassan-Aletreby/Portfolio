@@ -10,19 +10,24 @@ export default function Testimonials() {
 
   return (
     <section className="testimonials-section" id="testimonials">
-      <h2 className="section-title">{t("testimonials.title")}</h2>
+      <div className="container">
+        <h2 className="section-title">{t("testimonials.title")}</h2>
+        <div className="testimonials-grid">
+          {testimonials.map((item, index) => (
+            <div className="testimonial-card" key={index}>
+              <img
+                src={item.image}
+                alt={item.name}
+                className="testimonial-img"
+              />
 
-      <div className="testimonials-grid">
-        {testimonials.map((item, index) => (
-          <div className="testimonial-card" key={index}>
-            <img src={item.image} alt={item.name} className="testimonial-img" />
+              <h3 className="testimonial-name">{item.name}</h3>
+              <span className="testimonial-job">{item.job}</span>
 
-            <h3 className="testimonial-name">{item.name}</h3>
-            <span className="testimonial-job">{item.job}</span>
-
-            <p className="testimonial-review">"{item.review}"</p>
-          </div>
-        ))}
+              <p className="testimonial-review">"{item.review}"</p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
