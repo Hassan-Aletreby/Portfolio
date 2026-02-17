@@ -53,7 +53,7 @@ const Navbar = () => {
         <div className="logo" onClick={() => scrollToSection("home")}>
           <h2>{t("Port")}</h2>
           <div className="logo__img">
-            <img src="/logo.png" alt="logo" />
+            <img src="/Profile.jpg" alt="logo" />
           </div>
           <h2>{t("folio")}</h2>
         </div>
@@ -96,7 +96,9 @@ const Navbar = () => {
             )}
           </div>
           <button onClick={toggleTheme} className="theme-btn">
-            {darkMode ? <GoSun /> : <FaRegMoon />}
+            {darkMode ?
+              <GoSun />
+            : <FaRegMoon />}
           </button>
           <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
             ☰

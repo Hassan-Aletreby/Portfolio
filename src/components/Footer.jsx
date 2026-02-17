@@ -21,7 +21,7 @@ const Footer = () => {
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     items.forEach((item) => observer.observe(item));
@@ -41,7 +41,7 @@ const Footer = () => {
           <h2>{t("Port")}</h2>
           <div className="logo__img">
             {" "}
-            <img src="/logo.png" alt="logo" />
+            <img src="/Profile.jpg" alt="logo" />
           </div>
           <h2>{t("folio")}</h2>
         </div>
